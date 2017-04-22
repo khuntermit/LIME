@@ -1,0 +1,53 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.udacity.myapplication.MainActivity">
+    <ImageView
+        android:src="@drawable/oatmealraisincookies"
+        android:layout_width="700dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView"
+        android:id="@+id/imageView" />
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Oatmeal Raisin Cookies"
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#FF5252"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="\tOatmeal raisin cookies are a family favorite. Some nights when my sister and I returned wet and hungry from rowing, we found freshly-baked, warm oatmeal cookies waiting for us. "
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView2"
+        android:textSize="16sp"
+        android:background="#4E342E"
+        android:textColor="#EFEBE9"/>
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:text="\tIngredients:
+    1/2 cup (1 stick) plus 6 tablespoons butter, softened
+    3/4 cup firmly packed brown sugar
+    1/2 cup granulated sugar
+    2 eggs
+    1 teaspoon vanilla
+    1-1/2 cups all-purpose flour
+    1 teaspoon Baking Soda
+    1 teaspoon ground cinnamon
+    1/2 teaspoon salt (optional)
+    3 cups Quaker® Oats (quick or old fashioned, uncooked)
+    1 cup raisins"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>
